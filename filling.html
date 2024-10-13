@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment Processing</title>
+    <link rel="stylesheet" href="filling.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <!-- Processing Animation -->
+        <div class="processing-wrapper" id="processing">
+            <div class="circle">
+                <div class="liquid"></div>
+                <p class="processing-text">Processing payment...</p>
+            </div>
+        </div>
+
+        <!-- Success Animation -->
+        <div class="checkmark-wrapper" id="checkmarkWrapper">
+            <div class="checkmark">
+                <img src="img.png" width="100" height="100">
+            </div>
+        </div>
+        <div>
+            <h1 class="success-heading" id="successHeading">Payment Successful!</h1>
+            <p class="message" id="successMessage">Thank you for your payment. Your transaction was completed
+                successfully.
+            </p>
+        </div>
+        <script src="filling.js"></script>
+</body>
+
+</html>
